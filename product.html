@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Super Cigarette club</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="#">
+	<meta name="keywords" content="">
+	<link rel="icon" href="#" type="image/x-icon">
+ 	<link rel="shortcut icon" href="#" type="image/x-icon">
+ 	<meta property="og:title" content="">
+ 	<meta property="og:description" content="">
+ 	<meta property="og:type" content="article">
+ 	<meta property="og:image" content="#">
+ 	<meta property="og:site_name" content="">
+ 	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
+	<!-- Bootstrap Reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome Pro -->
+	<link rel="stylesheet" href="css/fontawesome-all.min.css">
+	<!-- Slick slider CSS and theme -->
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header id="header-secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<span class="header__options">
+						<span class="header__options_currency">
+							Валюта: 
+							<select class="header__options_currency_value">
+  								<option>UAH</option>
+  								<option>USD</option>
+							</select>
+						</span>
+						<select class="header__options_language">
+  							<option>Русский</option>
+  							<option>Украинский</option>
+						</select>
+					</span>
+					<div class="header-right">
+						<div class="header__basket">
+							<a href="cart.html"	class="header__basket_content">
+								<i class="fas fa-shopping-basket"></i>
+								<span class="header__basket_total">
+									UAH 0.00
+								</span>
+							</a>
+							<div class="basket">
+								<div class="basket__title">
+									Корзина:
+								</div>
+								<div class="basket__list">
+									<div class="basket__item">
+										<a href="#" class="basket__img">
+											<img src="img/monus.jpg" alt="Monus">
+										</a>
+										<div class="basket__info">
+											<a href="#" class="basket__category">
+												Категория
+											</a>
+											<a href="#" class="basket__name">
+												Наименование сигарет
+											</a>
+											<div class="basket__count">
+												340 шт.
+											</div>
+											<div class="basket__price-item">
+												<div class="quantity-block">
+  													<button class="quantity-arrow-minus"> - </button>
+  														<input class="quantity-num" type="number" value="1" step="1" title="Кол-во" min="1"/>
+ 													 <button class="quantity-arrow-plus"> + </button>
+												</div>
+												<div class="basket__price">
+													34 грн.
+												</div>
+											</div>
+										</div>
+										<button class="close__btn">
+											<i class="fal fa-times"></i>
+										</button>
+									</div>
+									<div class="basket__item">
+										<a href="#" class="basket__img">
+											<img src="img/monus.jpg" alt="Monus">
+										</a>
+										<div class="basket__info">
+											<a href="#" class="basket__category">
+												Категория
+											</a>
+											<a href="#" class="basket__name">
+												Наименование сигарет
+											</a>
+											<div class="basket__count">
+												340 шт.
+											</div>
+											<div class="basket__price-item">
+												<div class="quantity-block">
+  													<button class="quantity-arrow-minus"> - </button>
+  														<input class="quantity-num" type="number" value="1" step="1" title="Кол-во" min="1"/>
+ 													 <button class="quantity-arrow-plus"> + </button>
+												</div>
+												<div class="basket__price">
+													34 грн.
+												</div>
+											</div>
+										</div>
+										<button class="close__btn">
+											<i class="fal fa-times"></i>
+										</button>
+									</div>
+									<div class="basket__item">
+										<a href="#" class="basket__return">
+											ВЕРНУТЬ УДАЛЁННЫЙ ТОВАР "СЕМЕЧКИ"
+										</a>
+									</div>
+									<div class="basket__item">
+										<a href="#" class="basket__img">
+											<img src="img/monus.jpg" alt="Monus">
+										</a>
+										<div class="basket__info">
+											<a href="#" class="basket__category">
+												Категория
+											</a>
+											<a href="#" class="basket__name">
+												Наименование сигарет
+											</a>
+											<div class="basket__count">
+												340 шт.
+											</div>
+											<div class="basket__price-item">
+												<div class="quantity-block">
+  													<button class="quantity-arrow-minus"> - </button>
+  														<input class="quantity-num" type="number" value="1" step="1" title="Кол-во" min="1"/>
+ 													 <button class="quantity-arrow-plus"> + </button>
+												</div>
+												<div class="basket__price">
+													34 грн.
+												</div>
+											</div>
+										</div>
+										<button class="close__btn">
+											<i class="fal fa-times"></i>
+										</button>
+									</div>
+								</div>
+								<div class="basket-sum">
+									<span class="basket-sum__text">
+										Сумма Заказа
+									</span>
+									<span class="basket-sum__digit">
+										607 грн.
+									</span>
+								</div>
+								<div class="basket-sale">
+									<span class="basket-sale__text">
+										Скидки
+									</span>
+									<span class="basket-sale__digit">
+										0 грн.
+									</span>
+								</div>
+								<div class="basket-total">
+									<span class="basket-total__text">
+										Итого
+									</span>
+									<span class="basket-total__digit">
+										607 грн.
+									</span>
+								</div>
+								<button href="#" class="btn basket__btn">
+									<span class="basket__btn_text">
+										Оформить заказ
+									</span>
+									<i class="fas fa-arrow-circle-right"></i>
+								</button>
+								<button class="close__btn close__btn_basket">
+									<i class="fal fa-times"></i>
+								</button>
+							</div>
+						</div>
+						<div class="header__search">
+							<div class="search">
+								<button href="#" class="search__btn">
+									<i class="fas fa-search"></i>
+								</button>
+								<input type="search" class="search__input" placeholder="Поиск...">
+							</div>
+						</div>
+					</div>
+					<nav class="main-menu">
+						<ul class="main-menu__list">
+							<li class="main-menu__item main-menu__item_hide">
+								<a href="index.html" class="main-menu__link">
+									Главная
+								</a>
+							</li>
+							<li class="main-menu__item main-menu__item_submenu main-menu__item_hide">
+								<a href="products.html" class="main-menu__link">
+									Товары
+								</a>
+								<ul class="submenu__list">
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											Сигареты с фильтром
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											Сигареты без фильтра
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											Сигареты производства ОАЭ
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											Сигареты производства Молдавия
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											Сигареты производства Белорусь
+										</a>
+									</li>
+									<li class="submenu__item">
+										<a href="#" class="submenu__link">
+											Сигареты производства Россия
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="main-menu__item main-menu__item_hide">
+								<a href="blog.html" class="main-menu__link">
+									Блог
+								</a>
+							</li>
+							<li class="main-menu__item header__logo">
+								<a href="index.html" class="main-menu__link main-menu__link_logo">
+									<span class="header__logo_top">
+										<img src="img/logo.png" alt="Логотип">
+									</span>
+									<span class="header__logo_bottom">
+										Super Cigarette <span class="header__logo_small">club</span>
+									</span>
+								</a>
+							</li>
+							<li class="main-menu__item main-menu__item_hide">
+								<a href="promotions.html" class="main-menu__link">
+									Акции
+								</a>
+							</li>
+							<li class="main-menu__item main-menu__item_hide">
+								<a href="contacts.html" class="main-menu__link">
+									Контакты
+								</a>
+							</li>
+							<li class="main-menu__item main-menu__item_hide">
+								<a href="about.html" class="main-menu__link">
+									О нас
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="menu-mobile-content">
+					<a href="#" class="menu-btn menu-open">
+							<span></span>
+					</a>
+						<nav class="menu-mobile">
+							<ul class="menu-mobile__list">
+								<li class="menu-mobile__item">
+									<a href="index.html" class="menu-mobile__link">
+										Главная
+									</a>
+								</li>
+								<li class="menu-mobile__item">
+									<a href="products.html" class="menu-mobile__link">
+										Товары
+									</a>
+								</li>
+								<li class="menu-mobile__item">
+									<a href="blog.html" class="menu-mobile__link">
+										Блог
+									</a>
+								</li>
+								<li class="menu-mobile__item">
+									<a href="promotions.html" class="menu-mobile__link">
+										Акции
+									</a>
+								</li>
+								<li class="menu-mobile__item">
+									<a href="contacts.html" class="menu-mobile__link">
+										Контакты
+									</a>
+								</li>
+								<li class="menu-mobile__item">
+									<a href="about.html" class="menu-mobile__link">
+										О нас
+									</a>
+								</li>
+								<li class="menu-mobile__item menu-mobile__item_last">
+									<a href="cart.html" class="menu-mobile__link">
+										Корзина
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</header>
+	<section class="product">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="product__wrap">
+						<div class="product__slider_for">
+							<div class="product__item_for">
+								<div class="product__img product__img_for">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+							<div class="product__item_for">
+								<div class="product__img product__img_for">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+							<div class="product__item_for">
+								<div class="product__img product__img_for">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+						</div>
+						<div class="product__slider_nav">
+							<div class="product__item_nav">
+								<div class="product__img product__img_nav">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+							<div class="product__item_nav">
+								<div class="product__img product__img_nav">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+							<div class="product__item_nav">
+								<div class="product__img product__img_nav">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+						</div>
+						<div class="product__slider_mobile">
+							<div class="product__item_for">
+								<div class="product__img product__img_for">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+							<div class="product__item_mobile">
+								<div class="product__img product__img_for">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+							<div class="product__item_mobile">
+								<div class="product__img product__img_for">
+									<img src="img/monus.jpg" alt="Monus">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="product__description">
+						<h4 class="product__title">
+							Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore
+						</h4>
+						<div class="product__availability">
+							Наличие: <span class="product__bold">Наличие:</span>
+						</div>
+						<div class="product__brand">
+							Бренд: 
+							<a href="#" class="product__link">
+								<span class="product__bold">Бренд:</span>
+							</a>
+						</div>
+						<div class="product__group">
+							Категория: 
+							<a href="#" class="product__link">
+								<span class="product__bold">Категория:</span>
+							</a>
+						</div>
+						<div class="product__nicotine">
+							Содержание никотина: <span class="product__bold">Содержание никотина:</span>
+						</div>
+						<div class="product__resin">
+							Содержание смолы: <span class="product__bold">Содержание смолы:</span>
+						</div>
+						<div class="product__country">
+							Страна производителя: <span class="product__bold">Страна производителя:</span>
+						</div>
+						<div class="product-pricing">
+							<div class="product-pricing__wrap">
+								<div class="product-pricing__price">
+									35.00 грн.
+								</div>
+								<div class="product-pricing__oldprice">
+									60.00 грн.
+								</div>
+								<div class="product-pricing__sale">
+									15%
+								</div>
+							</div>
+							<div class="product-pricing__choice">
+								<div class="product-pricing__amount">
+									Количество:
+								</div>
+								<div class="quantity-block">
+  									<button class="quantity-arrow-minus"> - </button>
+  										<input class="quantity-num" type="number" value="1000" step="1" title="Кол-во" min="1"/>
+ 									<button class="quantity-arrow-plus"> + </button>
+								</div>
+							</div>
+						</div>
+						<button href="#" class="btn product__btn">
+							<span class="product__btn_text">Купить сейчас!</span>
+							<i class="fas fa-arrow-circle-right"></i>
+						</button>
+						<div class="product__social">
+							<ul class="social__links">
+								<li class="social__item">
+									<a href="facebook.com" class="social__link">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="social__item">
+									<a href="google.com" class="social__link">
+										<i class="fab fa-google-plus-g"></i>
+									</a>
+								</li>
+								<li class="social__item">
+									<a href="pinterest.com" class="social__link">
+										<i class="fab fa-pinterest-p"></i>
+									</a>
+								</li>
+								<li class="social__item">
+									<a href="twitter.com" class="social__link">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="product-information">
+						<div class="product-information__item">
+							<h4 class="product-information__title">
+								Lorem Ipsum Dolor Sit Amet, Consetetur
+							</h4>
+							<p class="product-information__text">
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
+							</p>
+						</div>
+						<div class="product-information__item">
+							<h4 class="product-information__title">
+								Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed
+							</h4>
+							<p class="product-information__text">
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
+							</p>
+						</div>
+						<div class="product-information__item">
+							<h4 class="product-information__title">
+								Lorem Ipsum Dolor Sit Amet
+							</h4>
+							<p class="product-information__text">
+								Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="reviews__title">
+						Отзывы
+					</h3>
+					<div class="reviews-form">
+						<form>
+							<button href="#" class="btn reviews__btn">
+						      	<span class="reviews__btn_text">Отправить отзыв</span>
+									<i class="fas fa-arrow-circle-right"></i>
+							</button>
+							<div class="reviews-form__wrap">
+								<div class="reviews-form__left">
+									<div class="form__name">
+										<label for="name">Имя</label>
+										<input type="name" id="name" placeholder="Введите ваше имя">
+									</div>
+									<div class="form__tel">
+										<label for="tel">Телефон</label>
+										<input type="tel" id="tel" placeholder="Введите ваш телефон">
+									</div>
+									<div class="form__email">
+										<label for="email">E-mail</label>
+										<input type="email" id="email" placeholder="Введите ваш телефон">
+									</div>
+								</div>
+								<div class="reviews-form__right">
+									<label for="message">Сообщение</label>
+									<textarea id="message" placeholder="Введите текст вашего комментария"></textarea>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="reviews__list">
+						<div class="review__item">
+							<div class="review__user">
+								<div class="review__info">
+									<div class="review__name">
+										Татьяна
+									</div>
+									<div class="product__rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<div class="review__date">
+									Апрель 11, 2019
+								</div>
+							</div>
+							<div class="review__description">
+								<p class="review__message">
+									Все супер. Отправили быстро, упаковано было хорошо
+								</p>
+								<div class="review__connect">
+									<p class="review__connect_question review__question">
+										Как быстро с вами связались после заказа/сообщения?
+									</p>
+									<p class="review__connect_answer review__answer">
+										В течение дня
+									</p>
+								</div>
+								<div class="review__properly">
+									<p class="review__properly_question review__question">
+										Цена, наличие и описание товара (услуги) были указаны правильно?
+									</p>
+									<p class="review__properly_answer review__answer">
+										Да
+									</p>
+								</div>
+								<div class="review__term">
+									<p class="review__term_question review__question">
+										Заказ был выполнен (доставлен) в оговоренные сроки??
+									</p>
+									<p class="review__term_answer review__answer">
+										Да
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="review__item">
+							<div class="review__user">
+								<div class="review__info">
+									<div class="review__name">
+										Татьяна
+									</div>
+									<div class="product__rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<div class="review__date">
+									Апрель 11, 2019
+								</div>
+							</div>
+							<div class="review__description">
+								<p class="review__message">
+									Все супер. Отправили быстро, упаковано было хорошо
+								</p>
+								<div class="review__connect">
+									<p class="review__connect_question review__question">
+										Как быстро с вами связались после заказа/сообщения?
+									</p>
+									<p class="review__connect_answer review__answer">
+										В течение дня
+									</p>
+								</div>
+								<div class="review__properly">
+									<p class="review__properly_question review__question">
+										Цена, наличие и описание товара (услуги) были указаны правильно?
+									</p>
+									<p class="review__properly_answer review__answer">
+										Да
+									</p>
+								</div>
+								<div class="review__term">
+									<p class="review__term_question review__question">
+										Заказ был выполнен (доставлен) в оговоренные сроки??
+									</p>
+									<p class="review__term_answer review__answer">
+										Да
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="review__item">
+							<div class="review__user">
+								<div class="review__info">
+									<div class="review__name">
+										Татьяна
+									</div>
+									<div class="product__rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<div class="review__date">
+									Апрель 11, 2019
+								</div>
+							</div>
+							<div class="review__description">
+								<p class="review__message">
+									Все супер. Отправили быстро, упаковано было хорошо
+								</p>
+								<div class="review__connect">
+									<p class="review__connect_question review__question">
+										Как быстро с вами связались после заказа/сообщения?
+									</p>
+									<p class="review__connect_answer review__answer">
+										В течение дня
+									</p>
+								</div>
+								<div class="review__properly">
+									<p class="review__properly_question review__question">
+										Цена, наличие и описание товара (услуги) были указаны правильно?
+									</p>
+									<p class="review__properly_answer review__answer">
+										Да
+									</p>
+								</div>
+								<div class="review__term">
+									<p class="review__term_question review__question">
+										Заказ был выполнен (доставлен) в оговоренные сроки??
+									</p>
+									<p class="review__term_answer review__answer">
+										Да
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recommended">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="recommended__offer">
+						<h3 class="recommended__title">
+							Рекомендуемые товары
+						</h3>
+						<img src="img/leaf-big.png" alt="Листья" class="leafs recommended__title_leaf-big">
+						<img src="img/leaf-small.png" alt="Листья" class="leafs recommended__title_leaf-small">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="product__card">
+						<div class="product__img">
+							<img src="img/monus.jpg" alt="Monus">
+							<div class="product__img_overlay">
+								<button class="product__basket">
+									<i class="fas fa-shopping-basket"></i>
+								</button>
+								<a href="#" class="product__info">
+									<i class="fas fa-eye"></i>
+								</a>
+							</div>
+						</div>
+						<a href="#" class="product__category">
+							Категория
+						</a>
+						<span class="product__name">
+							Наименование продукта
+						</span>
+						<div class="product__rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="product__price">
+							<span class="product__price-sale"></span>
+							<span class="product__price-regular">
+								630.00 грн.
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="product__card">
+						<div class="product__img">
+							<img src="img/monus.jpg" alt="Monus">
+							<div class="product__img_overlay">
+								<button class="product__basket">
+									<i class="fas fa-shopping-basket"></i>
+								</button>
+								<a href="#" class="product__info">
+									<i class="fas fa-eye"></i>
+								</a>
+							</div>
+						</div>
+						<a href="#" class="product__category">
+							Категория
+						</a>
+						<span class="product__name">
+							Наименование продукта
+						</span>
+						<div class="product__rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="product__price">
+							<span class="product__price-sale"></span>
+							<span class="product__price-regular">
+								630.00 грн.
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="product__card">
+						<div class="product__img">
+							<img src="img/monus.jpg" alt="Monus">
+							<div class="product__img_overlay">
+								<button class="product__basket">
+									<i class="fas fa-shopping-basket"></i>
+								</button>
+								<a href="#" class="product__info">
+									<i class="fas fa-eye"></i>
+								</a>
+							</div>
+						</div>
+						<a href="#" class="product__category">
+							Категория
+						</a>
+						<span class="product__name">
+							Наименование продукта
+						</span>
+						<div class="product__rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="product__price">
+							<span class="product__price-sale"></span>
+							<span class="product__price-regular">
+								630.00 грн.
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="product__card">
+						<div class="product__img">
+							<img src="img/monus.jpg" alt="Monus">
+							<div class="product__sale">
+								Sale
+							</div>
+							<div class="product__img_overlay">
+								<button class="product__basket">
+									<i class="fas fa-shopping-basket"></i>
+								</button>
+								<a href="#" class="product__info">
+									<i class="fas fa-eye"></i>
+								</a>
+							</div>
+						</div>
+						<a href="#" class="product__category">
+							Категория
+						</a>
+						<span class="product__name">
+							Наименование продукта
+						</span>
+						<div class="product__rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<div class="product__price">
+							<span class="product__price-sale">
+								830.00 грн.
+							</span>
+							<span class="product__price-regular">
+								630.00 грн.
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a href="#" class="btn arrivals__btn">
+						<span class="arrivals__btn_text">
+							Перейти в каталог
+						</span>
+						<i class="fas fa-arrow-circle-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="footer-contacts">
+						<div class="footer-contacts__title">
+							Связаться с нами
+						</div>
+						<p class="footer-contacts__text">
+							Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+						</p>
+						<div class="footer-contacts__address">
+							Адрес: <span class="font-weight-bold">34 Fordham Street, New York, NY 10027</span>
+						</div>
+						<div class="footer-contacts__phone">
+							Телефон: <a href="tel:+01234567890" class="font-weight-bold">+(012) 3456 - 7890</a>
+						</div>
+						<div class="footer-contacts__mail">
+							E-mail: <a href="mailto:mail@gmail.com" class="font-weight-bold">Send us e-mail</a>
+						</div>
+						<div class="footer-contacts__schedule">
+							График работы: ПН - ПТ с 9:00 до 18:00 и СБ с 9:00 до 16:00
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-information">
+						<div class="footer-information__title">
+							Информация
+						</div>
+						<ul class="footer-information__menu">
+							<li class="footer-information__item">
+								<a href="products.html" class="footer-information__link">
+									Товары
+								</a>
+							</li>
+							<li class="footer-information__item">
+								<a href="blog.html" class="footer-information__link">
+									Блог
+								</a>
+							</li>
+							<li class="footer-information__item">
+								<a href="promotions.html" class="footer-information__link">
+									Акции
+								</a>
+							</li>
+							<li class="footer-information__item">
+								<a href="contacts.html" class="footer-information__link">
+									Контакты
+								</a>
+							</li>
+							<li class="footer-information__item">
+								<a href="about.html" class="footer-information__link">
+									О нас
+								</a>
+							</li>
+							<li class="footer-information__item">
+								<a href="polytics.html" class="footer-information__link">
+									Политика конфиденциальности
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-social">
+						<div class="footer-social__title">
+							Оставаться на связи
+						</div>
+						<ul class="footer-social__links">
+							<li class="footer-social__item">
+								<a href="facebook.com" class="footer-social__link">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="footer-social__item">
+								<a href="istagram.com" class="footer-social__link">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li class="footer-social__item">
+								<a href="pinterest.com" class="footer-social__link">
+									<i class="fab fa-pinterest-p"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="footer-payment">
+						<img src="icons/visa.svg" alt="VISA" class="footer-payment_visa">
+						<img src="icons/mastercard.svg" alt="MasterCard" class="footer-payment_mastercard">
+						<img src="icons/1200px-Google_Pay_(GPay)_Logo.png" alt="Google Pay" class="footer-payment_gpay">
+						<img src="icons/1200px-Apple_Pay_logo.png" alt="Apple Pay" class="footer-payment_apay">
+						<img src="icons/paypal.svg" alt="PayPal" class="footer-payment_paypal">
+						<img src="icons/privat24_1.png" alt="Приват24" class="footer-payment_privat">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="footer-copyright">
+						Copyright 2019 by WEB CAT. All right reserved.
+					</div>
+				</div>
+			</div>
+		</div>		
+	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
